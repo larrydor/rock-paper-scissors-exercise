@@ -29,7 +29,11 @@ else:
 
 # print("LATER MESSAGES")
 
-print("GAME SUMMARY:")
+print("Game Summary:")
+
+# print("\033[1m" + "GAME SUMMARY:") 
+# print("\033[0m")
+# Bold print source: https://stackoverflow.com/questions/8924173/how-do-i-print-bold-text-in-python/8930747
 
 print("USER CHOICE:", x)
 
