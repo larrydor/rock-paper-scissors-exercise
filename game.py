@@ -69,6 +69,6 @@ elif (x == "scissors") or (x == "SCISSORS") or (x == "Scissors"):
     else:
         print("Rock smashes scissors! Sorry you lost.")
 
-print("Thank You For Participating In Our Game!!!")
+print("Thank You For Participating!!!")
 print("Please Play Again Soon!")
 exit()
