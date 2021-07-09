@@ -31,9 +31,13 @@ print("LATER MESSAGES")
 
 # GENERATE A COMPUTER CHOICE
 
-valid_options = ["rock", "paper", "scissors"]
+valid_options = ["rock", "paper", "scissors"] # this is a list
 
-print(random.choice(valid_options))
+c = random.choice(valid_options))
+
+
+# print(random.choice(valid_options))
+
 
 
 # import random
@@ -43,3 +47,5 @@ print(random.choice(valid_options))
 
 # DETERMINE A WINNER
 
+
+### work on finding a winner for hw
