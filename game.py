@@ -6,9 +6,9 @@ print("Rock, Paper, Scissors, Shoot!")
 
 # ASK FOR A USER INPUT
 # source: python.org
-#s = input(--->)
+#s = input('--> ')
 
-x = input("Please choose one of 'rock', 'paper', scissors'")
+x = input("Please choose one of 'rock', 'paper', scissors': ")
 print(x)
 
 # VALIDATE THE USER INPUT
@@ -26,16 +26,17 @@ else:
     print("OOPS, INVALID, PLEASE TRY AGAIN")
     exit()
 
-print("LATER MESSAGES")
+# print("LATER MESSAGES")
 
+print("USER CHOSE:", x)
 
 # GENERATE A COMPUTER CHOICE
 
 valid_options = ["rock", "paper", "scissors"] # this is a list
 
-c = random.choice(valid_options))
+c = random.choice(valid_options)
 
-
+print("Computer Chose:", c)
 # print(random.choice(valid_options))
 
 
