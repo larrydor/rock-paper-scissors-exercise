@@ -24,7 +24,7 @@ if (x == "rock") or (x == "paper") or (x == "scissors") or (x == "ROCK") or (x =
     print(f"{x} is a Valid Entry!")
      # using the f before message - Source: https://www.kite.com/python/answers/how-to-print-a-variable-with-a-string-in-python
 else:
-    print("Sorry, You have made an Invalid Entry. PLEASE TRY AGAIN!")
+    print("Sorry, You have made an Invalid Entry. Please Try Again!")
     exit()
 
 # print("LATER MESSAGES")
