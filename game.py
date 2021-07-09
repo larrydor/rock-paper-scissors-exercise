@@ -23,7 +23,7 @@ print(x)
 if (x == "rock") or (x == "paper") or (x == "scissors"):
     print("VALID")
 else:
-    print("OOPS, INVALID, PLEASE TRY AGAIN")
+    print("OOPS, INVALID ENTRY, PLEASE TRY AGAIN!")
     exit()
 
 # print("LATER MESSAGES")
@@ -36,7 +36,7 @@ valid_options = ["rock", "paper", "scissors"] # this is a list
 
 c = random.choice(valid_options)
 
-print("Computer Chose:", c)
+print("COMPUTER CHOSE:", c)
 # print(random.choice(valid_options))
 
 
