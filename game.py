@@ -1,5 +1,7 @@
 # game.py
 
+import random
+
 print("Rock, Paper, Scissors, Shoot!")
 
 # ASK FOR A USER INPUT
@@ -27,11 +29,17 @@ else:
 print("LATER MESSAGES")
 
 
-
 # GENERATE A COMPUTER CHOICE
+
+valid_options = ["rock", "paper", "scissors"]
+
+print(random.choice(valid_options))
+
+
+# import random
+# 
+# foo = ['a', 'b', 'c']
 
 
 # DETERMINE A WINNER
-
-
 
