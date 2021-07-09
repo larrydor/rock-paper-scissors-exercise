@@ -9,7 +9,7 @@ print("Rock, Paper, Scissors, Shoot!")
 #s = input('--> ')
 
 x = input("Please choose one of 'rock', 'paper', scissors': ")
-print(x)
+# print(x)
 
 # VALIDATE THE USER INPUT
 
@@ -21,14 +21,17 @@ print(x)
 
 
 if (x == "rock") or (x == "paper") or (x == "scissors") or (x == "ROCK") or (x == "Rock") or (x == "Paper") or (x == "PAPER") or (x == "Scissors") or (x == "SCISSORS"):
-    print("VALID")
+    print(f"{x} is a Valid Entry!")
+     # using the f before message - Source: https://www.kite.com/python/answers/how-to-print-a-variable-with-a-string-in-python
 else:
-    print("Sorry, You have entered an Invalid Entry. PLEASE TRY AGAIN!")
+    print("Sorry, You have made an Invalid Entry. PLEASE TRY AGAIN!")
     exit()
 
 # print("LATER MESSAGES")
 
-print("USER CHOSE:", x)
+print("GAME SUMMARY:")
+
+print("USER CHOICE:", x)
 
 # GENERATE A COMPUTER CHOICE
 
@@ -36,7 +39,7 @@ valid_options = ["rock", "paper", "scissors"] # this is a list
 
 c = random.choice(valid_options)
 
-print("COMPUTER CHOSE:", c)
+print("COMPUTER CHOICE:", c)
 # print(random.choice(valid_options))
 
 # Determing Winner
@@ -44,7 +47,8 @@ print("COMPUTER CHOSE:", c)
 # Source: https://realpython.com/python-rock-paper-scissors/
 
 if x == c:
-    print("Both players selected {x}. It's a tie, their is no winner! Let's Try Again")
+    print(f"Both players have selected {x}. It's a tie, their is no winner! Please Try Again.")
+    # using the f before message - Source: https://www.kite.com/python/answers/how-to-print-a-variable-with-a-string-in-python
 elif (x == "rock") or (x == "ROCK") or (x == "Rock"):
     if c == "scissors":
         print("Rock smashes scissors! You are the winner!")
@@ -62,7 +66,5 @@ elif (x == "scissors") or (x == "SCISSORS") or (x == "Scissors"):
         print("Rock smashes scissors! Sorry you lost.")
 
 print("Thank You For Participating In Our Game!!!")
-again = x("Would you like to play another round?")
-
-# print("Please Play Again Soon!")
+print("Please Play Again Soon!")
 exit()
