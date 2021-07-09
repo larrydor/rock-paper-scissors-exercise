@@ -2,7 +2,6 @@
 
 print("Rock, Paper, Scissors, Shoot!")
 
-
 # ASK FOR A USER INPUT
 # source: python.org
 #s = input(--->)
@@ -13,9 +12,11 @@ print(x)
 # VALIDATE THE USER INPUT
 
 
+
 # GENERATE A COMPUTER CHOICE
 
 
 # DETERMINE A WINNER
+
 
 
