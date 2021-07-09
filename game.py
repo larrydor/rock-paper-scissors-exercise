@@ -42,7 +42,6 @@ print("COMPUTER CHOSE:", c)
 # Winner
 # Source: https://realpython.com/python-rock-paper-scissors/
 
-
 if x == c:
     print("Both players selected {x}. It's a tie!")
 elif (x == "rock") or (x == "ROCK") or (x == "Rock"):
@@ -62,4 +61,4 @@ elif (x == "scissors") or (x == "SCISSORS") or (x == "Scissors"):
         print("Rock smashes scissors! You lose.")
 
 print("Thank You For Participating In Our Game!!!")
-print("Please Play Again!")
+print("Please Play Again Soon!")
