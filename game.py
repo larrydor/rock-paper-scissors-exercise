@@ -51,7 +51,7 @@ print("COMPUTER CHOICE:", c)
 # Source: https://realpython.com/python-rock-paper-scissors/
 
 if x == c:
-    print(f"Both players have selected {x}. It's a tie, their is no winner! Please Try Again.")
+    print(f"Both players have selected {x}. It's a tie and there is no winner! Please Try Again.")
     # using the f before message - Source: https://www.kite.com/python/answers/how-to-print-a-variable-with-a-string-in-python
 elif (x == "rock") or (x == "ROCK") or (x == "Rock"):
     if c == "scissors":
