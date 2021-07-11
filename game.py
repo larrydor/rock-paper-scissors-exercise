@@ -8,7 +8,7 @@ print("Rock, Paper, Scissors, Shoot!")
 # source: python.org
 #s = input('--> ')
 
-x = input("Please choose one of 'rock', 'paper', scissors': ")
+x = input("Please, choose one of the following: rock, paper, or scissors: ")
 # print(x)
 
 # VALIDATE THE USER INPUT
@@ -22,9 +22,11 @@ x = input("Please choose one of 'rock', 'paper', scissors': ")
 
 if (x == "rock") or (x == "paper") or (x == "scissors") or (x == "ROCK") or (x == "Rock") or (x == "Paper") or (x == "PAPER") or (x == "Scissors") or (x == "SCISSORS"):
     print(f"{x} is a Valid Entry!")
-     # using the f before message - Source: https://www.kite.com/python/answers/how-to-print-a-variable-with-a-string-in-python
+     # using the f before string - Source: https://www.kite.com/python/answers/how-to-print-a-variable-with-a-string-in-python
 else:
-    print("Sorry, You have made an Invalid Entry. Please Try Again!")
+    print(f"Sorry, {x} is an Invalid Entry.")
+        # using the f before string - Source: https://www.kite.com/python/answers/how-to-print-a-variable-with-a-string-in-python
+    print("Please, only select one of the following: rock, paper, or scissors.")
     exit()
 
 # print("LATER MESSAGES")
@@ -32,8 +34,8 @@ else:
 # print("Game Summary:")
 
 print('\033[1mGAME SUMMARY: \033[0m')
-# Bold print source: https://stackoverflow.com/questions/8924173/how-do-i-print-bold-text-in-python/8930747
-# 1 line of bold text source: https://stackabuse.com/how-to-print-colored-text-in-python
+# Source: Bold print: https://stackoverflow.com/questions/8924173/how-do-i-print-bold-text-in-python/8930747
+# Source: 1 line of bold text: https://stackabuse.com/how-to-print-colored-text-in-python
 
 print("USER CHOICE:", x)
 
@@ -49,6 +51,10 @@ print("COMPUTER CHOICE:", c)
 # Determing Winner
 
 # Source: https://realpython.com/python-rock-paper-scissors/
+
+print('\033[1mResults: \033[0m')
+# Source: Bold print: https://stackoverflow.com/questions/8924173/how-do-i-print-bold-text-in-python/8930747
+# Source: 1 line of bold text: https://stackabuse.com/how-to-print-colored-text-in-python
 
 if x == c:
     print(f"Both players have selected {x}. It's a tie and there is no winner! Please Try Again.")
@@ -70,5 +76,5 @@ elif (x == "scissors") or (x == "SCISSORS") or (x == "Scissors"):
         print("Rock smashes scissors! Sorry you lost.")
 
 print("Thank You For Participating!!!")
-print("Please Play Again Soon!")
+print("Please, Play Again Soon!")
 exit()
