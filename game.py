@@ -48,13 +48,12 @@ c = random.choice(valid_options)
 print("COMPUTER CHOICE:", c)
 # print(random.choice(valid_options))
 
-# Determing Winner
-
-# Source: https://realpython.com/python-rock-paper-scissors/
-
 print('\033[1mResults: \033[0m')
 # Source: Bold print: https://stackoverflow.com/questions/8924173/how-do-i-print-bold-text-in-python/8930747
 # Source: 1 line of bold text: https://stackabuse.com/how-to-print-colored-text-in-python
+
+# Determing Winner
+# Source: https://realpython.com/python-rock-paper-scissors/
 
 if x == c:
     print(f"Both players have selected {x}. It's a tie and there is no winner! Please Try Again.")
