@@ -63,7 +63,7 @@ elif (x == "rock") or (x == "ROCK") or (x == "Rock"):
     if c == "scissors":
         print("Rock smashes scissors! You are the winner!")
     else:
-            print("Paper covers rock! Sorry you lost.")
+        print("Paper covers rock! Sorry you lost.")
 elif (x == "paper") or (x == "PAPER") or (x == "Paper"):
     if c == "rock":
         print("Paper covers rock! You are the winner!")
