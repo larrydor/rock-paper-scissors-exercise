@@ -6,7 +6,7 @@ print("Rock, Paper, Scissors, Shoot!")
 
 # ASK FOR A USER INPUT
 # source: python.org
-#s = input('--> ')
+# = input('--> ')
 
 x = input("Please, choose one of the following: rock, paper, or scissors: ")
 # print(x)
@@ -14,10 +14,10 @@ x = input("Please, choose one of the following: rock, paper, or scissors: ")
 # VALIDATE THE USER INPUT
 
 # if x == "rock": # "paper" "scissors"
-#     print("VALID")
+# print("VALID")
 # else:
-#     print("OOPS, INVALID, PLEASE TRY AGAIN")
-#     exit()
+# print("OOPS, INVALID, PLEASE TRY AGAIN")
+# exit()
 
 
 if (x == "rock") or (x == "paper") or (x == "scissors") or (x == "ROCK") or (x == "Rock") or (x == "Paper") or (x == "PAPER") or (x == "Scissors") or (x == "SCISSORS"):
@@ -25,7 +25,7 @@ if (x == "rock") or (x == "paper") or (x == "scissors") or (x == "ROCK") or (x =
      # using the f before string - Source: https://www.kite.com/python/answers/how-to-print-a-variable-with-a-string-in-python
 else:
     print(f"Sorry, {x} is an Invalid Entry.")
-        # using the f before string - Source: https://www.kite.com/python/answers/how-to-print-a-variable-with-a-string-in-python
+     # using the f before string - Source: https://www.kite.com/python/answers/how-to-print-a-variable-with-a-string-in-python
     print("Please, only select one of the following: rock, paper, or scissors.")
     exit()
 
