@@ -8,7 +8,8 @@ load_dotenv()
 
 z = os.getenv("PLAYER_NAME")
 
-print(f"Welcome {PLAYER_NAME}")
+print(f"Welcome {z}")
+# using the f before string - Source: https://www.kite.com/python/answers/how-to-print-a-variable-with-a-string-in-python
 
 print("Rock, Paper, Scissors, Shoot!")
 
