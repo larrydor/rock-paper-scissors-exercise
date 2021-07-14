@@ -1,8 +1,6 @@
-# rock-paper-scissors-exercise
+# Rock, Paper, Scissors Game
 
-# My First Python App
-
-An example Python application for students to run to test their local development environment setups.
+An Python application that allows a user to play a game of Rock, Paper, Scissors against a computer.
 
 ## Prerequisites
 
@@ -12,14 +10,13 @@ An example Python application for students to run to test their local developmen
 
 ## Installation
 
-Fork this [remote repository](https://github.com/prof-rossetti/my-first-python-app) under your own control, then "clone" or download your remote copy onto your local computer.
+Fork this [remote repository](https://github.com/larrydor/rock-paper-scissors-exercise) under your own control, then "clone" or download your remote copy onto your local computer.
 
 Then navigate there from the command line (subsequent commands assume you are running them from the local repository's root directory):
 
 ```sh
-cd my-first-python-app
+cd ~/Desktop/rock-paper-scissors-exercise
 ```
-
 Use Anaconda to create and activate a new virtual environment, perhaps called "my-first-env":
 
 ```sh
@@ -39,8 +36,7 @@ pip install -r requirements.txt
 
 In the root directory of your local repository, create a new file called ".env", and update the contents of the ".env" file to specify your desired username (then make sure to SAVE the ".env" file aftwards):
 
-    USER_NAME="Jon Snow"
-    SECRET_PASSWORD="super duper secret"
+    PLAYER_NAME="Jon Snow"
 
 > NOTE: the ".env" file is usually the place for passing configuration options and secret credentials, so as a best practice we don't upload this file to version control (which is accomplished via a corresponding entry in the [".gitignore"](/.gitignore) file). This means we need to instruct each person who uses our code needs to create their own local ".env" file.
 
@@ -49,10 +45,10 @@ In the root directory of your local repository, create a new file called ".env",
 Run the Python script:
 
 ```py
-python app/my_script.py
+python game.py
 
 # alternative module-style invocation (only required if importing from one file to another):
-python -m app.my_script
+python -m app.game
 ```
 
 > NOTE: if you see an error like "ModuleNotFoundError: No module named '...'", it's because the given package isn't installed, so run the `pip` command above to ensure that package has been installed into the virtual environment.
